@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YMoney</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">About It</string>
+    <string name="title_notifications">Connect Us</string>
+    <string name="Top">Welcom Today is "  "</string>
+    <string name="buttonE">exit from program</string>
+    <string name="backHome">Back to home</string>
+    <string name="X">X the app</string>
+    <string name="Email">Email us</string>
+    <string name="Call">Call us</string>
+</resources>
