@@ -9,4 +9,6 @@
     <string name="X">X the app</string>
     <string name="Email">Email us</string>
     <string name="Call">Call us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
