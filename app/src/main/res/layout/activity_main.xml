@@ -21,51 +21,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="582dp">-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/textView"-->
-<!--                android:layout_width="309dp"-->
-<!--                android:layout_height="87dp"-->
-<!--                android:autoSizeTextType="uniform"-->
-<!--                android:bufferType="spannable"-->
-<!--                android:text="Hello"-->
-<!--                android:textColor="#1C7503"-->
-<!--                android:textSize="8sp" />-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/textView4"-->
-<!--                android:layout_width="171dp"-->
-<!--                android:layout_height="47dp"-->
-<!--                android:layout_below="@id/DAYtextView"-->
-<!--                android:textSize="19sp"-->
-
-<!--                />-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/DAYtextView"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="48dp"-->
-<!--                android:layout_below="@id/textView"-->
-<!--                android:breakStrategy="high_quality"-->
-
-<!--                android:textSize="19sp" />-->
-
-<!--            <ImageButton-->
-<!--                android:id="@+id/imageButton6"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="55dp"-->
-<!--                android:layout_below="@id/textView"-->
-<!--                android:layout_toRightOf="@id/textView4"-->
-<!--                android:layout_weight="1"-->
-<!--                android:backgroundTint="#E3E3E3"-->
-<!--                android:contentDescription="@string/buttonE"-->
-<!--                app:srcCompat="@android:drawable/ic_delete" />-->
-<!--        </RelativeLayout>-->
-
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -79,17 +34,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_nav_menu" />
-
-
-
-    <!--            <ImageButton-->
-<!--                android:id="@+id/imageButton5"-->
-<!--                android:layout_width="3dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_weight="1"-->
-<!--                android:backgroundTint="#E4E4E4E4"-->
-<!--                app:srcCompat="@android:drawable/ic_delete"
-  app:srcCompat="?attr/homeAsUpIndicator"/>-->
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

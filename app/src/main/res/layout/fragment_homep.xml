@@ -7,69 +7,6 @@
     android:background="#E4E4E4"
     tools:context=".HomepFragment">
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="388dp"-->
-<!--        android:layout_height="218dp"-->
-<!--        android:background="#E4E4E4"-->
-<!--        android:orientation="vertical"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/linearLayout"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent">-->
-
-<!--        &lt;!&ndash; Title and Icons &ndash;&gt;-->
-
-<!--        &lt;!&ndash; Subtitles &ndash;&gt;-->
-
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="109dp"-->
-<!--            android:background="#E4E4E4"-->
-<!--            android:orientation="horizontal">-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/textView"-->
-<!--                android:layout_width="191dp"-->
-<!--                android:layout_height="105dp"-->
-<!--                android:autoSizeTextType="uniform"-->
-<!--                android:bufferType="spannable"-->
-<!--                android:text="@string/app_name"-->
-<!--                android:textColor="#1C7503"-->
-<!--                android:textSize="19sp"-->
-<!--                tools:layout_editor_absoluteX="20dp"-->
-<!--                tools:layout_editor_absoluteY="15dp" />-->
-
-<!--            <ImageButton-->
-<!--                android:id="@+id/imageButton6"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="55dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:backgroundTint="#E3E3E3"-->
-<!--                android:contentDescription="@string/buttonE"-->
-<!--                app:srcCompat="?attr/homeAsUpIndicator" />-->
-
-<!--        </LinearLayout>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/DAYtextView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="48dp"-->
-<!--            android:breakStrategy="high_quality"-->
-<!--            android:text="eeee"-->
-<!--            android:textSize="19sp"-->
-<!--            tools:layout_editor_absoluteX="16dp"-->
-<!--            tools:layout_editor_absoluteY="56dp" />-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/textView4"-->
-<!--            android:layout_width="171dp"-->
-<!--            android:layout_height="47dp"-->
-<!--            android:text="The Time Now:"-->
-<!--            android:textSize="19sp"-->
-<!--            tools:layout_editor_absoluteX="274dp"-->
-<!--            tools:layout_editor_absoluteY="63dp" />-->
-<!--    </LinearLayout>-->
-
     <FrameLayout
         android:id="@+id/frame_layouthome"
         android:layout_width="384dp"
