@@ -1,3 +1,4 @@
+
 plugins {
     id("com.android.application")
 }
@@ -30,6 +31,8 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+
 }
 
 dependencies {

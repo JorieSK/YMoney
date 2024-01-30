@@ -71,8 +71,7 @@ public class ContactFragment extends Fragment {
         ImageButton websiteButton = view.findViewById(R.id.imageButton4);
         ImageButton phoneButton = view.findViewById(R.id.imageButton3);
         ImageButton emailButton = view.findViewById(R.id.imageButton2);
-        ImageButton exitButton = view.findViewById(R.id.imageButton69);
-        AtomicBoolean isLongPress = new AtomicBoolean(false);
+
 
         // Set click listeners for the ImageButtons
         websiteButton.setOnClickListener(v -> openUrl("https://twitter.com/"));
@@ -80,21 +79,6 @@ public class ContactFragment extends Fragment {
         phoneButton.setOnClickListener(v -> dialPhoneNumber("1234567890"));
 
         emailButton.setOnClickListener(v -> sendEmail("YMoney@gmail.com"));
-
-        exitButton.setOnLongClickListener(v -> {
-            isLongPress.set(true);
-            Toast.makeText(getContext(), "Long Pressed! Exiting...", Toast.LENGTH_SHORT).show();
-            requireActivity().finish();
-            return true;
-        });
-
-        exitButton.setOnClickListener(v -> {
-            if (!isLongPress.get()) {
-                // Handle regular click event here
-                Toast.makeText(getContext(), "Short Pressed", Toast.LENGTH_SHORT).show();
-            }
-            isLongPress.set(false);
-        });
 
         return view;
     }

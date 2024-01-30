@@ -70,33 +70,96 @@
 <!--            tools:layout_editor_absoluteY="63dp" />-->
 <!--    </LinearLayout>-->
 
+    <FrameLayout
+        android:id="@+id/frame_layouthome"
+        android:layout_width="384dp"
+        android:layout_height="329dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="258dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="352dp"
+                android:layout_height="115dp"
+                android:autoSizeTextType="uniform"
+                android:bufferType="spannable"
+                android:text="Hello"
+                android:textColor="#1C7503"
+                android:textSize="8sp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="171dp"
+                android:layout_height="47dp"
+                android:layout_below="@id/imageButton6"
+                android:layout_marginTop="-51dp"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/DAYtextView"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="-51dp"
+                android:breakStrategy="high_quality"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/textView"
+                android:layout_toRightOf="@id/textView4"
+                android:layout_weight="1"
+                android:backgroundTint="#E3E3E3"
+                android:contentDescription="@string/buttonE"
+                app:srcCompat="@android:drawable/ic_delete" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="414dp"
-        android:layout_height="546dp"
+        android:layout_width="344dp"
+        android:layout_height="274dp"
+        android:layout_marginBottom="4dp"
         android:background="#E4E4E4"
+
         android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="116dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <!-- Buttons -->
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="144dp"
             android:background="#E4E4E4"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/ZAKAT"
-                android:layout_width="193dp"
-                android:layout_height="160dp"
+                android:layout_width="155dp"
+                android:layout_height="118dp"
                 android:layout_margin="10dp"
                 android:backgroundTint="#1C7503"
-                android:text="Zakat Calculation"
                 android:onClick="zakat"
+                android:text="Zakat Calculation"
                 android:textSize="18sp"
                 android:typeface="serif"
                 tools:layout_editor_absoluteX="16dp"
@@ -104,15 +167,19 @@
 
             <Button
                 android:id="@+id/TAX"
-                android:layout_width="192dp"
-                android:layout_height="171dp"
+                android:layout_width="163dp"
+                android:layout_height="123dp"
                 android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
                 android:backgroundTint="#1C7503"
                 android:bufferType="normal"
+                android:onClick="tax"
                 android:text="Taxes Calculation"
                 android:textSize="18sp"
                 android:typeface="serif"
-                android:onClick="tax"
                 tools:layout_editor_absoluteX="220dp"
                 tools:layout_editor_absoluteY="195dp" />
 
@@ -120,25 +187,29 @@
 
         <Button
             android:id="@+id/CURRENCY"
-            android:layout_width="173dp"
-            android:layout_height="163dp"
+            android:layout_width="161dp"
+            android:layout_height="109dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:backgroundTint="#1C7503"
-            android:text="Currency Exchange"
             android:onClick="currency"
-            android:textSize="19sp"
+            android:text="Currency Exchange"
+            android:textSize="18sp"
             android:typeface="serif" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="205dp"
-            android:layout_height="104dp"
-            android:autoSizeTextType="uniform"
-            android:bufferType="spannable"
-            android:text="@string/app_name"
-            android:textColor="#1C7503"
-            android:textSize="19sp" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView"-->
+        <!--            android:layout_width="205dp"-->
+        <!--            android:layout_height="104dp"-->
+        <!--            android:autoSizeTextType="uniform"-->
+        <!--            android:bufferType="spannable"-->
+        <!--            android:text="@string/app_name"-->
+        <!--            android:textColor="#1C7503"-->
+        <!--            android:textSize="19sp" />-->
 
     </LinearLayout>
 

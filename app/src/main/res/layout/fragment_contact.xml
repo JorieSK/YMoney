@@ -64,14 +64,7 @@
                 android:contentDescription="@string/Call"
                 android:src="@android:drawable/stat_sys_phone_call" />
 
-            <ImageButton
-                android:id="@+id/imageButton69"
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:layout_weight="1"
-                android:backgroundTint="#E3E3E3"
-                android:contentDescription="@string/buttonE"
-                app:srcCompat="?attr/homeAsUpIndicator" />
+
 
         </LinearLayout>
 
