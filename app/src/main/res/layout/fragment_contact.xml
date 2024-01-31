@@ -65,10 +65,23 @@
                 android:contentDescription="@string/Call"
                 android:src="@android:drawable/stat_sys_phone_call" />
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/app_name" />
 
 
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/reservedTextView"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="9dp"
+            android:text="all copyrights reserved @2024®"
+            android:textSize="8sp" />
 
     </LinearLayout>
 
