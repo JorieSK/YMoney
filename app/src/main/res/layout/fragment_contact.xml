@@ -29,6 +29,7 @@
                 android:autoSizeTextType="uniform"
                 android:bufferType="spannable"
                 android:text="Contact Us"
+                android:paddingLeft="8dp"
                 android:textColor="#1C7503"
                 android:textSize="19sp"
                 tools:layout_editor_absoluteX="50dp"

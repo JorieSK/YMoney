@@ -31,7 +31,8 @@
                 android:bufferType="spannable"
                 android:text="Hello"
                 android:textColor="#1C7503"
-                android:textSize="8sp" />
+                android:textSize="8sp"
+                android:paddingLeft="8dp"/>
 
 
             <TextView
@@ -40,7 +41,9 @@
                 android:layout_height="47dp"
                 android:layout_below="@id/imageButton6"
                 android:layout_marginTop="-51dp"
-                android:textSize="19sp" />
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"/>
 
             <TextView
                 android:id="@+id/DAYtextView"
@@ -51,7 +54,8 @@
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="-51dp"
                 android:breakStrategy="high_quality"
-                android:textSize="19sp" />
+                android:textSize="19sp"
+                android:paddingLeft="8dp"/>
 
             <ImageButton
                 android:id="@+id/imageButton6"
